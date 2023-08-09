@@ -1,0 +1,16 @@
+:root {
+  primary-color {
+    background: linear-gradient(
+      111.4deg,
+      rgb(2, 255, 4) 18.4%,
+      rgb(0, 232, 237) 100.2%
+    );
+  }
+}
+body {
+  background-color: #74ecd1;
+}
+.container {
+  background-color: #100f10;
+  color: white;
+}
