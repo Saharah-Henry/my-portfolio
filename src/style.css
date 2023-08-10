@@ -35,24 +35,13 @@ h4 {
     rgb(0, 232, 237) 100.2%
   );
   margin-top: 15px;
-  padding: 10px;
-  border-radius: 10px;
   color: black;
   font-size: large;
   font-weight: bold;
+  border-radius: 4px;
+  padding: 20px 15px;
 }
 
-.row {
-  background-color: #212529;
-  max-width: 150%;
-}
-.card-img-top {
-  max-height: 300px;
-}
-
-.container {
-  margin-top: 20px;
-}
 .navbar-brand {
   background: linear-gradient(
     111.4deg,
@@ -63,11 +52,30 @@ h4 {
   -webkit-background-clip: text;
   color: transparent;
 }
-img {
-  max-width: 100px;
-}
 
 p {
   font-size: 18px;
   line-height: 1.5;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: smaller;
+  }
+  h4 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .img-thumbnail {
+    display: none;
+  }
+  .learn-more {
+    margin: 0 auto;
+    display: block;
+  }
+  p {
+    text-align: center;
+  }
 }
