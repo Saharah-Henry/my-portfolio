@@ -11,6 +11,16 @@ body {
   padding: 200px 40px;
   margin-top: 20px;
 }
+.about-me {
+  background-color: #212529;
+  color: white;
+}
+.profile-image {
+  height: 330px;
+}
+.about-paragraph {
+  margin-top: 100px;
+}
 h1 {
   font-size: 96px;
   font-family: "Playfair Display", serif;
@@ -27,7 +37,12 @@ h4 {
 
   font-size: 45px;
 }
-
+h6 {
+  font-size: 14px;
+}
+hr {
+  color: var(--primary-color);
+}
 .btn {
   background: linear-gradient(
     111.4deg,
@@ -43,6 +58,9 @@ h4 {
 }
 
 .navbar-brand {
+  margin-left: 50px;
+  font-size: 24px;
+  font-weight: 700;
   background: linear-gradient(
     111.4deg,
     rgb(2, 255, 4) 18.4%,
@@ -51,6 +69,25 @@ h4 {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+}
+.border-light {
+  transition: all 200ms ease-in-out;
+}
+.pe-1:hover {
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+.navbar-nav {
+  margin-left: 300px;
+}
+.nav-link {
+  margin-right: 50px;
+  transition: 0.4s all ease;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--primary-color);
 }
 
 p {
