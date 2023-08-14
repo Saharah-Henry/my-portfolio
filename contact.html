@@ -22,9 +22,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style.css" />
+    <script
+      src="https://kit.fontawesome.com/64e9fd6c6a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <a class="navbar-brand" href="#" title="navigation bar heading"
         ><span class="multi">Saharah Henry</span></a
       >
@@ -48,65 +52,45 @@
             <a class="nav-link" href="about.html" title="About me">About</a>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link active"
-              aria-current="page"
-              href="project.html"
-              title="My projects"
-            >
+            <a class="nav-link" href="project.html" title="My projects">
               Projects</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html" title="How to contact me">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="contact.html"
+              title="How to contact me"
+            >
               Contact
             </a>
           </li>
         </ul>
       </div>
     </nav>
-
-    <div class="container mt-4">
+    <h4 class="text-center mt-3">Contact</h4>
+    <div class="container-contact mt-5">
       <div class="row">
-        <div class="col-sm-6">
-          <img
-            src="images/patty project.png"
-            alt="patty project webpage"
-            class="img-thumbnail border"
-          />
-        </div>
-        <div class="col-sm-6">
-          <h4>Patty Project</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <div class="mb-4">
-            <a href="#" class="btn learn-more" title="Learn more">Learn More</a>
+        <div class="col-sm-2">
+          <div class="card contact-card">
+            <div class="card-body">
+              <i class="fa-solid fa-envelope icon"></i>
+              <h5>Email</h5>
+
+              <a href="mailto:henrysaharah07@gmail.com" title="">Send email</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="row mt-4">
-        <div class="col-sm-6">
-          <h4>Weather Project</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <div class="mb-4">
-            <a href="#" class="btn learn-more" title="Learn more">Learn More</a>
+        <div class="col-sm-2">
+          <div class="card contact-card">
+            <div class="card-body">
+              <i class="fa-solid fa-phone icon"></i>
+              <h5>Phone</h5>
+
+              <p class="mb-0">(876)236-6655</p>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-6">
-          <img
-            src="images/weather app.png"
-            alt="weather app"
-            class="img-thumbnail border"
-          />
         </div>
       </div>
     </div>
