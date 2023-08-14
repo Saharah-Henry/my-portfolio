@@ -46,15 +46,15 @@ hr {
 .btn {
   background: linear-gradient(
     111.4deg,
-    rgb(2, 255, 4) 18.4%,
-    rgb(0, 232, 237) 100.2%
+    rgba(2, 255, 2, 0.56) 18.4%,
+    rgba(0, 233, 237, 0.679) 100.2%
   );
   margin-top: 15px;
   color: black;
   font-size: large;
   font-weight: bold;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 7px;
 }
 
 .navbar-brand {
@@ -70,13 +70,7 @@ hr {
   -webkit-background-clip: text;
   color: transparent;
 }
-.border-light {
-  transition: all 200ms ease-in-out;
-}
-.pe-1:hover {
-  background-color: var(--primary-color);
-  cursor: pointer;
-}
+
 .navbar-nav {
   margin-left: 300px;
 }
