@@ -125,7 +125,7 @@ hr {
   text-align: center;
 }
 .navbar-brand {
-  margin-left: 50px;
+  margin-left: 20px;
   font-size: 24px;
   font-weight: 700;
   background: linear-gradient(to right, rgb(252, 74, 26), rgb(247, 183, 51));
@@ -159,6 +159,10 @@ p {
   h1 {
     font-size: 45px;
   }
+  h2 {
+    font-size: 24px;
+  }
+
   h4 {
     font-size: 30px;
     text-align: center;
@@ -184,6 +188,7 @@ p {
   }
   .about-paragraph {
     margin-top: 15px;
+    text-align: center;
   }
   .skill-tool {
     display: none;
