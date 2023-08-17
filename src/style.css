@@ -117,9 +117,7 @@ hr {
 .contact-card {
   background-color: var(--primary-color);
 }
-.skill_card {
-  border: 1px solid var(--primary-color);
-}
+
 .icon {
   font-size: 40px;
   text-align: center;
