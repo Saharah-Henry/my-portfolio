@@ -172,6 +172,9 @@ p {
   aspect-ratio: 3/2;
   object-fit: contain;
 }
+footer {
+  margin-top: 20px;
+}
 @media (max-width: 600px) {
   body {
     max-height: max-content;
@@ -210,9 +213,7 @@ p {
     margin-top: 15px;
     text-align: center;
   }
-  .skill-tool {
-    display: none;
-  }
+
   .skill_card {
     border: none;
   }
@@ -233,5 +234,8 @@ p {
   }
   .bg-other {
     height: 100%;
+  }
+  footer {
+    margin-top: 200px;
   }
 }
